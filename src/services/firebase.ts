@@ -4,13 +4,13 @@ import "firebase/compat/auth";
 import "firebase/compat/database";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyD2HkhLnOymclS4X_7N32u0MRhphR_070k",
-    authDomain: "letme-ask-mbtech.firebaseapp.com",
-    databaseURL: "https://letme-ask-mbtech-default-rtdb.firebaseio.com",
-    projectId: "letme-ask-mbtech",
-    storageBucket: "letme-ask-mbtech.appspot.com",
-    messagingSenderId: "850943372968",
-    appId: "1:850943372968:web:1eddc0f28ea5ca25fd9c9d",
+    apiKey: process.env.REACT_APP_API_KEY,
+    authDomain: process.env.REACT_APP_AUTH_DOMAIN,
+    databaseURL: process.env.REACT_APP_DATABASE_URL,
+    projectId: process.env.REACT_APP_PROJECT_ID,
+    storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
+    messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
+    appId: process.env.REACT_APP_APP_ID,
 };
 
 // Initialize Firebase
