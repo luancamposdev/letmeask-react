@@ -80,6 +80,13 @@
             }
         }
 
+        button {
+            > img {
+                width: 20px;
+                margin-left: 8px;
+            }
+        }
+
         p {
             font-size: 14px;
             color: #737380;
